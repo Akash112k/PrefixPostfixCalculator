@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+
+        android:paddingBottom="0dp"
+        android:layout_width="0dp"
+        android:textAlignment="textEnd"
+        android:textSize="24dp"
+        android:hint="\n     "
+        android:id="@+id/editText"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:id="@+id/textView2"
+        android:textSize="26sp"
+        android:textAlignment="textEnd"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        android:layout_height="59dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="100dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="102dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="20"
+            android:id="@+id/button2"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            android:layout_width="101dp"
+            tools:layout_editor_absoluteY="142dp"
+            tools:layout_editor_absoluteX="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="142dp"
+            tools:layout_editor_absoluteX="135dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="100dp" />
+
+        <Button
+        android:text="3"
+            android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        tools:layout_editor_absoluteY="142dp"
+        tools:layout_editor_absoluteX="251dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/linearLayout"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <Button
+            android:text="4"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="194dp"
+            tools:layout_editor_absoluteX="20dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"/>
+    <Button
+        android:text="5"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        tools:layout_editor_absoluteY="197dp"
+        tools:layout_editor_absoluteX="137dp"
+        android:layout_weight="20"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:text="6"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        tools:layout_editor_absoluteY="201dp"
+        tools:layout_editor_absoluteX="251dp"
+        android:layout_weight="20"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/linearLayout2"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout6"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout6">
+    <Button
+        android:text="-"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        tools:layout_editor_absoluteY="405dp"
+        tools:layout_editor_absoluteX="20dp"
+        android:layout_weight="20"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:text="0"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        tools:layout_editor_absoluteY="298dp"
+        tools:layout_editor_absoluteX="137dp"
+        android:layout_weight="20"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:text="+"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button13"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        tools:layout_editor_absoluteY="354dp"
+        tools:layout_editor_absoluteX="251dp"
+        android:layout_weight="20"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/linearLayout3"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout4">
+
+        <Button
+            android:text="("
+            android:layout_height="wrap_content"
+            android:id="@+id/button19"
+            android:layout_width="101dp"
+            tools:layout_editor_absoluteY="295dp"
+            tools:layout_editor_absoluteX="20dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:text="."
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button22"
+            tools:layout_editor_absoluteY="349dp"
+            tools:layout_editor_absoluteX="20dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:text=")"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button20"
+            tools:layout_editor_absoluteY="258dp"
+            tools:layout_editor_absoluteX="246dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/linearLayout5"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout3"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout3">
+
+        <Button
+            android:text="C"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            android:layout_width="231dp"
+            tools:layout_editor_absoluteY="458dp"
+            tools:layout_editor_absoluteX="27dp"
+            android:layout_weight="40"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:text="="
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button16"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="458dp"
+            tools:layout_editor_absoluteX="251dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/linearLayout6"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout">
+        <Button
+            android:text="7"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="247dp"
+            tools:layout_editor_absoluteX="20dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"/>
+        <Button
+           android:text="8"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+             android:id="@+id/button9"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="249dp"
+            tools:layout_editor_absoluteX="137dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:text="9"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        tools:layout_editor_absoluteY="297dp"
+        tools:layout_editor_absoluteX="251dp"
+        android:layout_weight="20"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/linearLayout4"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout2">
+        <Button
+            android:text="*"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button14"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="402dp"
+            tools:layout_editor_absoluteX="137dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:text="/"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button15"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="410dp"
+            tools:layout_editor_absoluteX="254dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:text="^"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button17"
+            android:layout_below="@+id/editText"
+            android:layout_toEndOf="@+id/textView"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            tools:layout_editor_absoluteY="354dp"
+            tools:layout_editor_absoluteX="142dp"
+            android:layout_weight="20"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
